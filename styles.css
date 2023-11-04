@@ -1,0 +1,145 @@
+
+.logo{
+    width: 90px;
+    height: 90px;
+    margin: 5px 1px 10px 10px;
+}
+.head{
+    display: flex;
+}
+
+
+header{
+        background-color: #1E1E1E;
+        color: white;
+        width: 95vw;
+        height: 150px;
+        border-radius: 10px;
+        padding-top: 30px;
+        padding-left: 10px;
+        margin: auto;
+}
+.h1{
+    font-size: 80px;
+    margin: 0px 10px 0 10px ;
+    height: 100px;
+   
+}
+.hmit{
+   text-align: justify;
+   margin-top: 5px;
+}
+
+.nav{
+    display: flex;
+    margin-left: 300px;
+}
+h2{
+    margin: 50px 30px 0 30px;
+}
+
+.search{
+    height: 20px;
+    border-radius: 20px;
+}
+
+input::placeholder {
+    font-size: 15px; 
+    text-align: center;
+    
+}
+
+body{
+    background-color: rgb(1, 68, 1);
+    height: 1000px;
+}
+
+
+.con1{
+    margin: auto;
+    margin-top: 50px;
+    width: 90vw;
+    height: 400px;
+    background-color: rgb(177, 176, 176);
+    border-radius: 30px;
+}
+.con2{
+    margin: auto;
+    margin-top: 50px;
+    width: 85vw;
+    height: 400px;
+    background-color: rgb(177, 176, 176);
+    border-radius: 30px;
+}
+
+
+.k1{
+    height: 50px;
+    width: 50px;
+    text-align: center;
+    margin: 50px 0 0 1000px;
+    padding-top: 100px;
+}
+
+.k1 h3{
+    background-color: aquamarine;
+    padding: 20px 20px 20px 20px;
+    margin-top: -90px;
+    margin-left: -150px;
+    width: max-content;
+    border-radius: 10px;
+}
+
+.k1 .infobox{
+    background-color: black;
+    width: 500px;
+    height: 300px;
+    margin-left: -150px;
+    border-radius: 10px;
+    
+}
+.k2{
+    height: 50px;
+    width: 50px;
+    text-align: center;
+    margin: 10px 0 0 1000px;
+    padding-top: 10px;
+}
+
+.k2 h1{
+    background-color: aquamarine;
+    padding: 20px 20px 20px 20px;
+    text-align: center;
+    width: max-content;
+    border-radius: 10px;
+    position: absolute;
+    left: 45.5%;
+    top: 87%;
+}
+
+.k2 .infobox{
+    background-color: rgb(230, 109, 109);
+    width: 500px;
+    height: 300px;
+    border-radius: 10px;
+    position: absolute;
+    left: 50%;
+    transform: translate(10%);
+    top: 100%;
+}
+.k2 .infobox1{
+    background-color: black;
+    width: 500px;
+    height: 300px;
+    border-radius: 10px;
+    position: absolute;
+    left: 50%;
+    transform: translate(-110%);
+    top: 100%;
+}
+
+.flexK2{
+    display: flex;
+    
+    width: 500px;
+}
